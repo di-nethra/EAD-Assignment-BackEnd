@@ -17,6 +17,11 @@ public class TicketBookingService
         var createdBooking = _ticketBookingRepository.CreateBooking(booking);
         return createdBooking;
     }
+    public TicketBooking  GetReservationById(string referenceId)
+    {
+        var record = _ticketBookingRepository.GetBookingByReservationId(referenceId);
+        return record;
+    }
 
     // public TicketBooking CreateBooking(TicketBooking booking)
     // {

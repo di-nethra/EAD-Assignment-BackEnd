@@ -26,7 +26,19 @@ public class TicketBookingRepository : ITicketBookingRepository
         }
         catch (Exception ex)
         {
-            // Handle any MongoDB-related exceptions here.
+            throw ex;
+        }
+    }
+    
+    public TicketBooking GetBookingByReservationId(string reservationId)
+    {
+        try
+        {
+            var booking = _bookingCollection.Find(b => b.ReferenceId == reservationId).FirstOrDefault();
+            return booking;
+        }
+        catch (Exception ex)
+        {
             throw ex;
         }
     }

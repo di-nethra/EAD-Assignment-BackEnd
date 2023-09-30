@@ -1,6 +1,7 @@
 using EAD_Assignment.Models;
 using EAD_Assignment.Services;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 
 namespace EAD_Assignment.Controllers;
 
@@ -31,12 +32,20 @@ public class TicketBookingController : ControllerBase
         //     return BadRequest(ex.Message);
         // }
     }
-    [HttpGet("{id}")]
-    public IActionResult GetBookingById(int id)
+    
+    [HttpGet("{reservationId}")]
+    public IActionResult GetReservationById(string reservationId)
     {
-        // Implement the logic to retrieve a booking by its ID here.
-        return null;
+        var record = ticketBookingService.GetReservationById(reservationId);
+
+        if (record == null)
+        {
+            return NotFound(); 
+        }
+
+        return Ok(record);
     }
+ 
     
 }
 
