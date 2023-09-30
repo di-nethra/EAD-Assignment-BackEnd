@@ -5,8 +5,10 @@ public interface ITicketBookingRepository
     TicketBooking CreateBooking(TicketBooking booking);
 
     public TicketBooking GetBookingByReservationId(string reservationId);
-    // TicketBooking UpdateBooking(int bookingId, TicketBooking updatedBooking);
+
+    public String DeleteBookingByReferenceId(string referenceId);
+
+    public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking);
     // bool CancelBooking(int bookingId);
-    // TicketBooking GetBookingById(int bookingId);
     // List<TicketBooking> GetBookingsByReferenceId(string referenceId);
 }

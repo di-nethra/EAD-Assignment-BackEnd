@@ -1,5 +1,6 @@
 
 using EAD_Assignment.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace EAD_Assignment.Services;
 
@@ -22,7 +23,28 @@ public class TicketBookingService
         var record = _ticketBookingRepository.GetBookingByReservationId(referenceId);
         return record;
     }
+    
+    public String  DeleteBookingByReferenceId(string referenceId)
+    {
+       var deleteStatus= _ticketBookingRepository.DeleteBookingByReferenceId(referenceId);
+       return deleteStatus;
+    }
 
+    public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking)
+    {
+        var dateDifference = (updatedBooking.ReservationDate - DateTime.Now).Days;
+
+        if (dateDifference >= 5)
+        {
+                var updatedReservation = _ticketBookingRepository.UpdateBookingByReservationId(reservationId, updatedBooking);
+
+                return updatedReservation;
+        }
+        else
+        {
+            throw new ArgumentException("Updated reservation date must be within 5 days from the booking date.");
+        }
+    }
     // public TicketBooking CreateBooking(TicketBooking booking)
     // {
     //     // Implement validation logic here.

@@ -46,7 +46,40 @@ public class TicketBookingController : ControllerBase
         return Ok(record);
     }
  
+    [HttpDelete("{reservationId}")]
+    public IActionResult DeleteReservationById(string reservationId)
+    {
+        try
+        {
+            var deleteRes = ticketBookingService.DeleteBookingByReferenceId(reservationId);
+            return Ok(deleteRes); 
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
     
+    [HttpPut("{reservationId}")]
+    public IActionResult UpdateReservationById(string reservationId, [FromBody] TicketBooking updatedBooking)
+    {
+        try
+        {
+            var updatedRecord = ticketBookingService.UpdateBookingByReservationId(reservationId, updatedBooking);
+        
+            if (updatedRecord == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(updatedRecord);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
 }
 
 

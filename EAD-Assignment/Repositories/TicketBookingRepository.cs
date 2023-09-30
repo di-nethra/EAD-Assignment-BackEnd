@@ -42,5 +42,46 @@ public class TicketBookingRepository : ITicketBookingRepository
             throw ex;
         }
     }
+    public String DeleteBookingByReferenceId(string referenceId)
+    {
+        try
+        {
+            var filter = Builders<TicketBooking>.Filter.Eq(b => b.ReferenceId, referenceId);
+            _bookingCollection.DeleteOne(filter);
+            return "Successfully Deleted";
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking)
+    {
+        try
+        {
+            var filter = Builders<TicketBooking>.Filter.Eq(b => b.ReferenceId, reservationId);
+            var update = Builders<TicketBooking>.Update
+                .Set(b => b.Status, updatedBooking.Status)
+                .Set(b => b.BookingDate, updatedBooking.BookingDate)
+                .Set(b => b.ReservationDate, updatedBooking.ReservationDate)
+                .Set(b => b.TrainId, updatedBooking.TrainId);
+
+            var result = _bookingCollection.UpdateOne(filter, update);
+
+            if (result.ModifiedCount > 0)
+            {
+                var updatedRecord = _bookingCollection.Find(filter).FirstOrDefault();
+                return updatedRecord;
+            }
+            else
+            {
+                return null; 
+            }
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
 
 }
