@@ -10,17 +10,17 @@ namespace EAD_Assignment.Controllers;
 public class TicketBookingController : ControllerBase
 {
     // private TicketBookingService ticketBookingService;
-    private readonly TicketBookingService ticketBookingService;
+    private readonly TicketBookingService _ticketBookingService;
 
     public TicketBookingController(TicketBookingService ticketBookingService)
     {
-        this.ticketBookingService = ticketBookingService;
+        _ticketBookingService = ticketBookingService;
     }
 
     [HttpPost]
     public IActionResult CreateBooking([FromBody] TicketBooking booking)
     {
-        var createdBooking = ticketBookingService.CreateBooking(booking);
+        var createdBooking = _ticketBookingService.CreateBooking(booking);
         return Ok(createdBooking);
         // try
         // {
@@ -36,7 +36,7 @@ public class TicketBookingController : ControllerBase
     [HttpGet("{reservationId}")]
     public IActionResult GetReservationById(string reservationId)
     {
-        var record = ticketBookingService.GetReservationById(reservationId);
+        var record = _ticketBookingService.GetReservationById(reservationId);
 
         if (record == null)
         {
@@ -51,7 +51,7 @@ public class TicketBookingController : ControllerBase
     {
         try
         {
-            var deleteRes = ticketBookingService.DeleteBookingByReferenceId(reservationId);
+            var deleteRes = _ticketBookingService.DeleteBookingByReferenceId(reservationId);
             return Ok(deleteRes); 
         }
         catch (Exception ex)
@@ -65,7 +65,7 @@ public class TicketBookingController : ControllerBase
     {
         try
         {
-            var updatedRecord = ticketBookingService.UpdateBookingByReservationId(reservationId, updatedBooking);
+            var updatedRecord = _ticketBookingService.UpdateBookingByReservationId(reservationId, updatedBooking);
         
             if (updatedRecord == null)
             {
