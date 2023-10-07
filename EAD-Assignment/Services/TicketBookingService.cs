@@ -45,6 +45,22 @@ public class TicketBookingService
             throw new ArgumentException("Updated reservation date must be within 5 days from the booking date.");
         }
     }
+    
+    
+    
+    public List<TicketBooking> GetBookingsByReferenceIdAndStatus(string referenceId,bool status)
+    {
+        try
+        {
+            var bookings = _ticketBookingRepository.GetBookingsByReferenceIdAndTrue(referenceId,status);
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
     // public TicketBooking CreateBooking(TicketBooking booking)
     // {
     //     // Implement validation logic here.

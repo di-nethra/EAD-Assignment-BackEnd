@@ -79,6 +79,27 @@ public class TicketBookingController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+    
+    [HttpGet("{referenceId}/{status}")]
+    public IActionResult GetBookingsByReferenceIdAndStatus(string referenceId, bool status)
+    {
+        try
+        {
+            var bookings = _ticketBookingService.GetBookingsByReferenceIdAndStatus(referenceId, status);
+
+            if (bookings == null || bookings.Count == 0)
+            {
+                return NotFound("No bookings found with the specified reference ID and status.");
+            }
+
+            return Ok(bookings);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
 
 }
 
