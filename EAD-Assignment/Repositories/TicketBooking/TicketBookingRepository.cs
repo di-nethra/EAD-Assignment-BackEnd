@@ -100,5 +100,19 @@ public class TicketBookingRepository : ITicketBookingRepository
             throw ex;
         }
     }
+    
+    public List<TicketBooking> GetAllBookings()
+    {
+        try
+        {
+            var bookings = _bookingCollection.Find(_ => true).ToList();
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
 
 }

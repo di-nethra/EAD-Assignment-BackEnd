@@ -11,5 +11,6 @@ public interface ITicketBookingRepository
     public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking);
 
     public List<TicketBooking> GetBookingsByReferenceIdAndTrue(string referenceId,bool status);
+    public List<TicketBooking> GetAllBookings();
 
 }

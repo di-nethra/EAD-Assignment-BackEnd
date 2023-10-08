@@ -99,6 +99,25 @@ public class TicketBookingController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+    [HttpGet]
+    public IActionResult GetAllBookings()
+    {
+        try
+        {
+            var allBookings = _ticketBookingService.GetAllBookings();
+
+            if (allBookings == null || allBookings.Count == 0)
+            {
+                return NotFound("No bookings found");
+            }
+
+            return Ok(allBookings);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 
 
 }
