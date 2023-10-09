@@ -1,5 +1,9 @@
+using EAD_Assignment.Models.TrainSchedules;
 using EAD_Assignment.Repositories;
+using EAD_Assignment.Repositories.TrainSchedules;
+using EAD_Assignment.Repositories.TrainSchedules.Interfaces;
 using EAD_Assignment.Services;
+using EAD_Assignment.Services.TrainSchedule;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,9 @@ builder.Services.AddSwaggerGen();
 // builder.Services.AddTransient<ITicketBookingService, TicketBookingService>();
 builder.Services.AddTransient<ITicketBookingRepository, TicketBookingRepository>();
 builder.Services.AddScoped<TicketBookingService>();
+
+builder.Services.AddTransient<ITrain, TrainScheduleRepository>();
+builder.Services.AddScoped<TrainScheduleService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
