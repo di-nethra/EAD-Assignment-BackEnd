@@ -56,11 +56,19 @@ C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.pdb
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.Core.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\BCrypt.Net-Next.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\DnsClient.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Bson.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Driver.dll
@@ -71,6 +79,7 @@ C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\ZstdSharp.dll
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib

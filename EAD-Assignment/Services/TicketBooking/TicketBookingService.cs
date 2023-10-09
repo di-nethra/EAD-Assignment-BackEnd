@@ -45,37 +45,32 @@ public class TicketBookingService
             throw new ArgumentException("Updated reservation date must be within 5 days from the booking date.");
         }
     }
-    // public TicketBooking CreateBooking(TicketBooking booking)
-    // {
-    //     // Implement validation logic here.
-    //
-    //     // Example: Check if the reservation date is within 30 days from the booking date.
-    //     var dateDifference = (booking.ReservationDate - DateTime.Now).Days;
-    //
-    //     if (dateDifference <= 30)
-    //     {
-    //         // Call the repository to create the booking.
-    //         var createdBooking = _ticketBookingRepository.CreateBooking(booking);
-    //
-    //         // Return the created booking.
-    //         return createdBooking;
-    //     }
-    //     else
-    //     {
-    //         throw new ArgumentException("Reservation date must be within 30 days from the booking date.");
-    //     }
-    // }
+    
+    
+    
+    public List<TicketBooking> GetBookingsByReferenceIdAndStatus(string referenceId,bool status)
+    {
+        try
+        {
+            var bookings = _ticketBookingRepository.GetBookingsByReferenceIdAndTrue(referenceId,status);
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
 
-    //
-    // public TicketBooking UpdateBooking(int bookingId, TicketBooking updatedBooking)
-    // {
-    //     // Implement validation logic and call the repository to update the booking.
-    //     // Return the updated booking.
-    // }
-    //
-    // public bool CancelBooking(int bookingId)
-    // {
-    //     // Implement cancellation logic and call the repository to cancel the booking.
-    //     // Return true if canceled, false otherwise.
-    // }
+    public List<TicketBooking> GetAllBookings()
+    {
+        try
+        {
+            var bookings = _ticketBookingRepository.GetAllBookings();
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
 }

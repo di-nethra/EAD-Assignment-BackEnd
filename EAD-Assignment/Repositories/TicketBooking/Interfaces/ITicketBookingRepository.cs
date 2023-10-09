@@ -9,6 +9,8 @@ public interface ITicketBookingRepository
     public String DeleteBookingByReferenceId(string referenceId);
 
     public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking);
-    // bool CancelBooking(int bookingId);
-    // List<TicketBooking> GetBookingsByReferenceId(string referenceId);
+
+    public List<TicketBooking> GetBookingsByReferenceIdAndTrue(string referenceId,bool status);
+    public List<TicketBooking> GetAllBookings();
+
 }

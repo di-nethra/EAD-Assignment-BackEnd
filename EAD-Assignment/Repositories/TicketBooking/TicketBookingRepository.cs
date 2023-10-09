@@ -83,5 +83,36 @@ public class TicketBookingRepository : ITicketBookingRepository
             throw ex;
         }
     }
+    
+    
+    public List<TicketBooking> GetBookingsByReferenceIdAndTrue(string referenceId,bool status)
+    {
+        try
+        {
+            var filter = Builders<TicketBooking>.Filter.Eq(b => b.ReferenceId, referenceId) &
+                         Builders<TicketBooking>.Filter.Eq(b => b.Status, status);
+
+            var bookings = _bookingCollection.Find(filter).ToList();
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    
+    public List<TicketBooking> GetAllBookings()
+    {
+        try
+        {
+            var bookings = _bookingCollection.Find(_ => true).ToList();
+            return bookings;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
 
 }
