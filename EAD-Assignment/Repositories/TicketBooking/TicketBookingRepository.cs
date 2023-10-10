@@ -113,6 +113,32 @@ public class TicketBookingRepository : ITicketBookingRepository
             throw ex;
         }
     }
+    public TicketBooking UpdateReservationDateAndStatus(string reservationId, DateTime reservationDate, bool status)
+    {
+        try
+        {
+            var filter = Builders<TicketBooking>.Filter.Eq(b => b.ReferenceId, reservationId);
+            var update = Builders<TicketBooking>.Update
+                .Set(b => b.ReservationDate, reservationDate)
+                .Set(b => b.Status, status);
+
+            var result = _bookingCollection.UpdateOne(filter, update);
+
+            if (result.ModifiedCount > 0)
+            {
+                var updatedRecord = _bookingCollection.Find(filter).FirstOrDefault();
+                return updatedRecord;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
 
 
 }

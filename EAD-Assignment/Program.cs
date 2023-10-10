@@ -88,5 +88,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
-//app.Run("http://192.168.1.31:5227");
+ app.Run();
+ // app.Run("http://192.168.1.31:5227");

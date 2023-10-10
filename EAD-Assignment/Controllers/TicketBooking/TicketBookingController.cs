@@ -119,6 +119,30 @@ public class TicketBookingController : ControllerBase
         }
     }
 
+    [HttpPut("updateReservationDateAndStatus/{reservationId}")]
+    public IActionResult UpdateReservationDateAndStatus(string reservationId, [FromBody] UpdateReservationRequest request)
+    {
+        try
+        {
+            DateTime reservationDate = request.ReservationDate;
+            bool status = request.Status;
+
+            var updatedBooking = _ticketBookingService.UpdateReservationDateAndStatus(reservationId, reservationDate, status);
+
+            if (updatedBooking != null)
+            {
+                return Ok(updatedBooking);
+            }
+            else
+            {
+                return NotFound("Booking not found or not updated.");
+            }
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 
 }
 

@@ -48,112 +48,121 @@
 /Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
 <<<<<<< HEAD
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\appsettings.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.exe
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.deps.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.runtimeconfig.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.pdb
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.Core.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\DnsClient.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Bson.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Driver.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Driver.Core.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\SharpCompress.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Snappier.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\ZstdSharp.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.AssemblyReference.cache
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.AssemblyInfoInputs.cache
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.AssemblyInfo.cs
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.CoreCompileInputs.cache
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.EAD-Assignment.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.build.EAD-Assignment.props
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EAD-Assignment.props
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EAD-Assignment.props
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\scopedcss\bundle\EAD-Assignment.styles.css
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.CopyComplete
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\refint\EAD-Assignment.dll
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.pdb
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.genruntimeconfig.cache
-C:\Users\mwatt\RiderProjects\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\ref\EAD-Assignment.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/appsettings.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.exe
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.deps.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.runtimeconfig.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.pdb
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/AWSSDK.Core.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/DnsClient.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Bson.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Driver.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/SharpCompress.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Snappier.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/ZstdSharp.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.AssemblyReference.cache
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.AssemblyInfoInputs.cache
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.AssemblyInfo.cs
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.CoreCompileInputs.cache
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.EAD-Assignment.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.build.EAD-Assignment.props
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.EAD-Assignment.props
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.EAD-Assignment.props
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/scopedcss/bundle/EAD-Assignment.styles.css
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.CopyComplete
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/refint/EAD-Assignment.dll
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.pdb
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.genruntimeconfig.cache
+C:/Users/mwatt/RiderProjects/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/ref/EAD-Assignment.dll
 =======
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\appsettings.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.exe
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.deps.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.runtimeconfig.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\EAD-Assignment.pdb
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.Core.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\BCrypt.Net-Next.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\DnsClient.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Bson.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Driver.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Driver.Core.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\SharpCompress.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Snappier.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\ZstdSharp.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.AssemblyReference.cache
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.AssemblyInfoInputs.cache
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.AssemblyInfo.cs
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.CoreCompileInputs.cache
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.EAD-Assignment.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.build.EAD-Assignment.props
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EAD-Assignment.props
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EAD-Assignment.props
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\scopedcss\bundle\EAD-Assignment.styles.css
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.csproj.CopyComplete
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\refint\EAD-Assignment.dll
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.pdb
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\EAD-Assignment.genruntimeconfig.cache
-C:\Users\DELL\OneDrive\Desktop\EAD Project\EAD-Assignment-BackEnd\EAD-Assignment\obj\Debug\net7.0\ref\EAD-Assignment.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/appsettings.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.exe
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.deps.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.runtimeconfig.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/EAD-Assignment.pdb
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/AWSSDK.Core.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/BCrypt.Net-Next.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/DnsClient.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Bson.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Driver.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/SharpCompress.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Snappier.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/ZstdSharp.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.AssemblyReference.cache
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.AssemblyInfoInputs.cache
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.AssemblyInfo.cs
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.CoreCompileInputs.cache
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.EAD-Assignment.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.build.EAD-Assignment.props
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.EAD-Assignment.props
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.EAD-Assignment.props
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/scopedcss/bundle/EAD-Assignment.styles.css
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.csproj.CopyComplete
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/refint/EAD-Assignment.dll
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.pdb
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/EAD-Assignment.genruntimeconfig.cache
+C:/Users/DELL/OneDrive/Desktop/EAD Project/EAD-Assignment-BackEnd/EAD-Assignment/obj/Debug/net7.0/ref/EAD-Assignment.dll
 >>>>>>> 5dc4053a28a473032eea7216766f37c767902591
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/BCrypt.Net-Next.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/dinethrex/RiderProjects/EAD-Assignment/EAD-Assignment/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

@@ -32,18 +32,18 @@ public class TicketBookingService
 
     public TicketBooking UpdateBookingByReservationId(string reservationId, TicketBooking updatedBooking)
     {
-        var dateDifference = (updatedBooking.ReservationDate - DateTime.Now).Days;
+        // var dateDifference = (updatedBooking.ReservationDate - DateTime.Now).Days;
 
-        if (dateDifference >= 5)
-        {
+        // if (dateDifference >= 5)
+        // {
                 var updatedReservation = _ticketBookingRepository.UpdateBookingByReservationId(reservationId, updatedBooking);
 
                 return updatedReservation;
-        }
-        else
-        {
-            throw new ArgumentException("Updated reservation date must be within 5 days from the booking date.");
-        }
+        // }
+        // else
+        // {
+        //     throw new ArgumentException("Updated reservation date must be within 5 days from the booking date.");
+        // }
     }
     
     
@@ -73,4 +73,36 @@ public class TicketBookingService
             throw ex;
         }
     }
+    
+    
+    public TicketBooking UpdateReservationDateAndStatus(string reservationId, DateTime reservationDate, bool status)
+    {
+        try
+        {
+            var existingBooking = _ticketBookingRepository.GetBookingByReservationId(reservationId);
+
+            if (existingBooking != null)
+            {
+                existingBooking.ReservationDate = reservationDate;
+                existingBooking.Status = status;
+                existingBooking.BookingDate = DateTime.Now; // Set BookingDate to current date
+
+                var updatedBooking = _ticketBookingRepository.UpdateBookingByReservationId(reservationId, existingBooking);
+            
+                if (updatedBooking != null)
+                {
+                    // You can perform additional processing or validation here if needed.
+                    return updatedBooking;
+                }
+            }
+
+            return null; // Handle the case where the booking was not found or not updated.
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+
 }
