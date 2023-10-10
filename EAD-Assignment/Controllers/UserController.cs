@@ -63,7 +63,7 @@ namespace EAD_Assignment.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User model)
+        public async Task<IActionResult> Login([FromBody] UserLogin model)
         {
             try
             {
@@ -82,10 +82,13 @@ namespace EAD_Assignment.Controllers
                 }
 
                 // Generate a JWT token
-                var token = _tokenService.GenerateToken(user);
+                //var token = _tokenService.GenerateToken(user);
 
                 // Return the token in the response
-                return Ok(new { Token = token });
+                //return Ok(new { Token = token });
+
+                // Return the user in the response
+                return Ok(new { User = user });
             }
             catch (Exception ex)
             {
