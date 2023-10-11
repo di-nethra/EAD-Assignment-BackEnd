@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using EAD_Assignment.Services.TokenService;
 using EAD_Assignment.Services.TokenService.Interfaces;
 using EAD_Assignment.Services.UserServices.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EAD_Assignment.Controllers
 {
@@ -81,6 +82,11 @@ namespace EAD_Assignment.Controllers
                     return Unauthorized("Invalid NIC or password.");
                 }
 
+                if (user.AccountStatus != "active")
+                {
+                    return Unauthorized("Account is diabled. Contact Backoffice Agent for activation");
+                }
+
                 // Generate a JWT token
                 //var token = _tokenService.GenerateToken(user);
 
@@ -93,6 +99,123 @@ namespace EAD_Assignment.Controllers
             catch (Exception ex)
             {
                 // Handle exceptions and return an appropriate error response
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("get-by-nic/{nic}")]
+        public async Task<IActionResult> GetUserByNIC(string nic)
+        {
+            try
+            {
+                var user = await _userService.GetByNICAsync(nic);
+
+                if (user == null)
+                {
+                    return NotFound("User not found.");
+                }
+
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("get-by-id/{id}")]
+        public async Task<IActionResult> GetUserById(string id)
+        {
+            try
+            {
+                var user = await _userService.GetByIdAsync(id);
+
+                if (user == null)
+                {
+                    return NotFound("User not found.");
+                }
+
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateUserByNIC(UserUpdate updatedUser)
+        {
+            try
+            {
+
+                // Update the user (except for the role)
+                await _userService.UpdateUserExceptRoleAsync(updatedUser);
+
+                return Ok("User updated successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("travellers")]
+        public async Task<IActionResult> GetTravellerList()
+        {
+            try
+            {
+                var travellers = await _userService.GetUsersByRoleAsync("Traveller");
+
+                return Ok(travellers);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("travelAgents")]
+        public async Task<IActionResult> GetTravelAgentList()
+        {
+            try
+            {
+                var travelleAgents = await _userService.GetUsersByRoleAsync("TravelAgent");
+
+                return Ok(travelleAgents);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpPut("activate-account/{nic}")]
+        public async Task<IActionResult> ActivateTravellerAccount(string nic)
+        {
+            try
+            {
+                await _userService.EnableAccountStatusAsync(nic, "active");
+
+                return Ok("Traveller account activated successfully.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpPut("disable-account/{nic}")]
+        public async Task<IActionResult> DisableTravellerAccount(string nic)
+        {
+            try
+            {
+                await _userService.DisableAccountStatusAsync(nic, "in-active");
+
+                return Ok("Traveller account de-activated successfully.");
+            }
+            catch (Exception ex)
+            {
                 return StatusCode(500, $"Internal Server Error: {ex.Message}");
             }
         }
