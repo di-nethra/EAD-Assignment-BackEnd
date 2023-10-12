@@ -1,5 +1,6 @@
 ﻿using EAD_Assignment.Models.TrainSchedules;
 using EAD_Assignment.Repositories.TrainSchedules.Interfaces;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace EAD_Assignment.Repositories.TrainSchedules;
@@ -30,7 +31,7 @@ public class TrainScheduleRepository : ITrain
         }
     }
 
-    public Train GetTrainById(string trainId)
+    public Train GetTrainById(ObjectId trainId)
     {
         try
         {
@@ -43,7 +44,7 @@ public class TrainScheduleRepository : ITrain
         }
     }
 
-    public String DeleteTrainById(string trainId)
+    public String DeleteTrainById(ObjectId trainId)
     {
         try
         {
@@ -57,7 +58,7 @@ public class TrainScheduleRepository : ITrain
         }
     }
 
-    public Train UpdateTrainById(string trainId, Train updatedTrain)
+    public Train UpdateTrainById(ObjectId trainId, Train updatedTrain)
     {
         try
         {

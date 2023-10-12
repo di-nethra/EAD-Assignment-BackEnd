@@ -1,4 +1,5 @@
 ﻿using EAD_Assignment.Models.TrainSchedules;
+using MongoDB.Bson;
 
 namespace EAD_Assignment.Repositories.TrainSchedules.Interfaces;
 
@@ -6,11 +7,11 @@ public interface ITrain
 {
     Train CreateTrain(Train train);
 
-    public Train GetTrainById(string trainId);
+    public Train GetTrainById(ObjectId trainId);
 
-    public String DeleteTrainById(string trainId);
+    public String DeleteTrainById(ObjectId trainId);
 
-    public Train UpdateTrainById(string trainId, Train updatedTrain);
+    public Train UpdateTrainById(ObjectId trainId, Train updatedTrain);
 
     public List<Train> GetAllTrains();
 
