@@ -19,6 +19,12 @@ namespace EAD_Assignment.Services.UserServices
             return await _userRepository.GetByNICAsync(nic);
         }
 
+        public async Task<User> GetByIdAsync(string userId)
+        {
+            // Implement logic to get a user by ID from the repository
+            return await _userRepository.GetByIdAsync(userId);
+        }
+
         public async Task CreateUserAsync(User user)
         {
             // Hash the password using BCrypt before storing it
@@ -48,6 +54,30 @@ namespace EAD_Assignment.Services.UserServices
 
             // Password is incorrect
             return null;
+        }
+
+        public async Task UpdateUserExceptRoleAsync(UserUpdate updatedUser)
+        {
+            // Implement logic to update a user (except for the role) in the repository
+            await _userRepository.UpdateUserExceptRoleAsync(updatedUser);
+        }
+
+        public async Task<List<User>> GetUsersByRoleAsync(string role)
+        {
+            // Implement logic to get users by role from the repository
+            return await _userRepository.GetUsersByRoleAsync(role);
+        }
+
+        public async Task EnableAccountStatusAsync(string nic, string accountStatus)
+        {
+            // Implement logic to update the account status in the repository
+            await _userRepository.UpdateAccountStatusAsync(nic, accountStatus);
+        }
+
+        public async Task DisableAccountStatusAsync(string nic, string accountStatus)
+        {
+            // Implement logic to update the account status in the repository
+            await _userRepository.UpdateAccountStatusAsync(nic, accountStatus);
         }
 
         // Implement BCrypt password hashing logic

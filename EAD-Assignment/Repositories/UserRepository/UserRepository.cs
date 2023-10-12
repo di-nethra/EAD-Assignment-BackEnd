@@ -52,5 +52,42 @@ namespace EAD_Assignment.Repositories.UserRepository
             var filter = Builders<User>.Filter.Eq(u => u.Id, objectId);
             await _userCollection.DeleteOneAsync(filter);
         }
+
+        public async Task UpdateUserExceptRoleAsync(UserUpdate updatedUser)
+        {
+            //// Implement logic to update a user (except for the role) in the MongoDB database
+            //var objectId = updatedUser.Id;
+
+            //// Convert the ObjectId to a string
+            //string objectIdAsString = objectId.ToString();
+            //var newobjectId = new ObjectId(objectIdAsString);
+            var filter = Builders<User>.Filter.Eq(u => u.NIC, updatedUser.NIC);
+
+                // Create an update definition to exclude the role field
+                var update = Builders<User>.Update
+                    .Set(u => u.FirstName, updatedUser.FirstName)
+                    .Set(u => u.LastName, updatedUser.LastName)
+                    .Set(u => u.PasswordHash, updatedUser.PasswordHash);
+
+            await _userCollection.UpdateOneAsync(filter, update);
+        }
+
+        public async Task<List<User>> GetUsersByRoleAsync(string role)
+        {
+            // Implement logic to get users by role from the MongoDB database
+            var filter = Builders<User>.Filter.Eq(u => u.Role, role);
+            return await _userCollection.Find(filter).ToListAsync();
+        }
+
+        public async Task UpdateAccountStatusAsync(string nic, string accountStatus)
+        {
+            // Implement logic to update the account status in the MongoDB database
+            var filter = Builders<User>.Filter.Eq(u => u.NIC, nic);
+
+            // Create an update definition to set the account status
+            var update = Builders<User>.Update.Set(u => u.AccountStatus, accountStatus);
+
+            await _userCollection.UpdateOneAsync(filter, update);
+        }
     }
 }

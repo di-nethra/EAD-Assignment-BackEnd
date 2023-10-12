@@ -9,5 +9,8 @@ namespace EAD_Assignment.Repositories.UserRepository.Interfaces
         Task CreateUserAsync(User user);
         //Task UpdateUserAsync(User user);
         Task DeleteUserAsync(string userId);
+        Task UpdateUserExceptRoleAsync(UserUpdate updatedUser);
+        Task<List<User>> GetUsersByRoleAsync(string role);
+        Task UpdateAccountStatusAsync(string nic, string accountStatus);
     }
 }
