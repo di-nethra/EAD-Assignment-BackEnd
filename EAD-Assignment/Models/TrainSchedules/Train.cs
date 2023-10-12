@@ -1,14 +1,17 @@
 ﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace EAD_Assignment.Models.TrainSchedules;
 
 public class Train
 {
-    public string Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)] 
+    public ObjectId Id { get; set; }
     public string TrainNumber { get; set; }
     public string TrainName { get; set; }
-    public DateTime DepartureTime { get; set; }
-    public DateTime ArrivalTime { get; set; }
+    public string DepartureTime { get; set; }
+    public string ArrivalTime { get; set; }
     public string DepartureStation { get; set; }
     public string ArrivalStation { get; set; }
 }

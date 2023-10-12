@@ -1,5 +1,6 @@
 ﻿using EAD_Assignment.Models.TrainSchedules;
 using EAD_Assignment.Repositories.TrainSchedules.Interfaces;
+using MongoDB.Bson;
 
 namespace EAD_Assignment.Services.TrainSchedule;
 
@@ -18,13 +19,13 @@ public class TrainScheduleService
         return createTrain;
     }
 
-    public String DeleteTrainById(string trainId)
+    public String DeleteTrainById(ObjectId trainId)
     {
         var deleteStatus = _trainRepository.DeleteTrainById(trainId);
         return deleteStatus;
     }
 
-    public Train UpdateTrainById(string trainId, Train updatedTrain)
+    public Train UpdateTrainById(ObjectId trainId, Train updatedTrain)
     {
         var updateTrain = _trainRepository.UpdateTrainById(trainId, updatedTrain);
         return updateTrain;

@@ -88,5 +88,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseCors(builder => builder
+    .WithOrigins("http://localhost:3000")
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+);
+
 app.Run();
 //app.Run("http://192.168.1.31:5227");
