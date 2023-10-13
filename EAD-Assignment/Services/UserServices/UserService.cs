@@ -59,6 +59,7 @@ namespace EAD_Assignment.Services.UserServices
         public async Task UpdateUserExceptRoleAsync(UserUpdate updatedUser)
         {
             // Implement logic to update a user (except for the role) in the repository
+            updatedUser.PasswordHash = HashPassword(updatedUser.PasswordHash);
             await _userRepository.UpdateUserExceptRoleAsync(updatedUser);
         }
 
